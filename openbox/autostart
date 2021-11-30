@@ -1,0 +1,7 @@
+nitrogen --restore &
+cbatticon &
+nm-applet &
+tint2 &
+ulauncher --no-window-shadow &
+picom &
+lxpolkit &
