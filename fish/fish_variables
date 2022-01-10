@@ -1,6 +1,14 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_ta:tmux\x20attach\x20\x2dt
+SETUVAR _fish_abbr_tad:tmux\x20attach\x20\x2dd\x20\x2dt
+SETUVAR _fish_abbr_tkss:tmux\x20kill\x2dsession\x20\x2dt
+SETUVAR _fish_abbr_tksv:tmux\x20kill\x2dserver
+SETUVAR _fish_abbr_tl:tmux\x20list\x2dsessions
+SETUVAR _fish_abbr_ts:tmux\x20new\x2dsession\x20\x2ds
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/kai/\x2econfig/fish/functions/fisher\x2efish\x1e/home/kai/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher
 SETUVAR fish_color_autosuggestion:4c566a
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:81a1c1
@@ -30,3 +38,5 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR --export fish_tmux_config:/home/kai/\x2econfig/tmux/tmux\x2econf
+SETUVAR fish_user_paths:/home/kai/\x2econfig/scripts
