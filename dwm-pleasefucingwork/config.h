@@ -24,7 +24,7 @@ static const int smartgaps_fact          = 0;   /* gap factor when there is only
 #if AUTOSTART_PATCH
 static const char autostartblocksh[]     = "autostart_blocking.sh";
 static const char autostartsh[]          = "autostart.sh";
-static const char dwmdir[]               = "dwm-flexipatch";
+static const char dwmdir[]               = "dwm-pleasefucingwork";
 static const char localshare[]           = ".config";
 #endif // AUTOSTART_PATCH
 #if BAR_ANYBAR_PATCH

@@ -46,7 +46,7 @@ set history=5000
 set clipboard=unnamedplus
 
 	" open NERDTree automatically
-autocmd StdinReadPre * let s:std_in=1
+"autocmd StdinReadPre * let s:std_in=1
 " autocmd VimEnter * NERDTree
 
 let g:NERDTreeGitStatusWithFlags = 1
@@ -101,29 +101,29 @@ imap <S-Right> <Esc>v<Right>
 
 vmap <C-c> y<Esc>i
 vmap <C-x> d<Esc>i
-map <C-v> pi
-imap <C-v> <Esc>pi
+"map <C-v> pi
+"imap <C-v> <Esc>pi
 
 set cindent
 " colorscheme gruvbox
-
-" sync open file with NERDTree
-" " Check if NERDTree is open or active
-function! IsNERDTreeOpen()        
-  return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
-endfunction
-
-" Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
-" file, and we're not in vimdiff
-function! SyncTree()
-  if &modifiable && IsNERDTreeOpen() && strlen(expand('%')) > 0 && !&diff
-    NERDTreeFind
-    wincmd p
-  endif
-endfunction
-
-" Highlight currently open buffer in NERDTree
-autocmd BufEnter * call SyncTree()
+"
+"" sync open file with NERDTree
+"" " Check if NERDTree is open or active
+"function! IsNERDTreeOpen()        
+"  return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
+"endfunction
+"
+"" Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
+"" file, and we're not in vimdiff
+"function! SyncTree()
+"  if &modifiable && IsNERDTreeOpen() && strlen(expand('%')) > 0 && !&diff
+"    NERDTreeFind
+"    wincmd p
+"  endif
+"endfunction
+"
+"" Highlight currently open buffer in NERDTree
+"autocmd BufEnter * call SyncTree()
 
 " coc config
 let g:coc_global_extensions = [
