@@ -51,7 +51,7 @@ window:
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
-
+  opacity: 0.8
   # Window decorations
   #
   # Values for `decorations`:
@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: SF Mono 
+    family: Fira Code 
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -411,7 +411,8 @@ colors: *kai_theme_dark
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.8
+#background_opacity: 0.8
+#background.opacity: 0.8
 
 #selection:
   # This string contains all characters that are used as separators for

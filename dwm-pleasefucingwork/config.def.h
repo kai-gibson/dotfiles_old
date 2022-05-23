@@ -389,7 +389,7 @@ static Sp scratchpads[] = {
  * them. This works seamlessly with alternative tags and alttagsdecoration patches.
  */
 static char *tagicons[][NUMTAGS] = {
-	[DEFAULT_TAGS]        = { "www", "note", "dev", "chat", "mp3", "var", "etc" },
+	[DEFAULT_TAGS]        = { "www", "note", "dev", "code", "chat", "mp3", "var", "etc" },
 	//[ALTERNATIVE_TAGS]    = { "A", "B", "C", "D", "E", "F", "G", "H", "I" },
 	//[ALT_TAGS_DECORATION] = { "<1>", "<2>", "<3>", "<4>", "<5>", "<6>", "<7>", "<8>", "<9>" },
 };
@@ -441,7 +441,9 @@ static const Rule rules[] = {
 	RULE(.class = "Logseq", .tags = 1 << 1)
 	RULE(.class = "Discord", .tags = 1 << 3)
 	RULE(.title = "Spotify", .tags = 1 << 4)
+	RULE(.title = "Event Tester", .noswallow = 1)
 	RULE(.class = "Gimp", .tags = 1 << 5)
+    RULE(.class = "kitty", .tags = 1 << 2, .isterminal = 1)
 	#if SCRATCHPADS_PATCH
 	RULE(.instance = "spterm", .tags = SPTAG(0), .isfloating = 1)
 	#endif // SCRATCHPADS_PATCH
@@ -815,7 +817,7 @@ static const char *dmenucmd[] = {
 	#endif // BAR_DMENUMATCHTOP_PATCH
 	NULL
 };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "kitty", NULL };
 static const char *roficmd[] = { "bash", "/home/kai/.config/rofi/launchers/colorful/launcher.sh", NULL };
 
 #if BAR_STATUSCMD_PATCH
