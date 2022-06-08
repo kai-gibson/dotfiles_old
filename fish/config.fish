@@ -5,9 +5,10 @@ end
 # Aliases
 
 alias rm=trash
+alias hardrm="bleachbit --shred"
 alias screenSwap="sh /home/kai/.dotfiles/scripts/screenSwap.sh"
 alias hibernate="systemctl hibernate"
-alias pac="doas pacman"
+alias pac="paru"
 alias bright="xrandr --output eDP-1 --brightness"
 alias screenshot="flameshot launcher"
 

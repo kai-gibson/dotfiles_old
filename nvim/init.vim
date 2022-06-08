@@ -25,6 +25,9 @@ Plug 'rust-lang/rust.vim'
 Plug 'lambdalisue/fern.vim'
 Plug 'antoinemadec/FixCursorHold.nvim'
 Plug 'junegunn/fzf.vim'
+Plug 'ptzz/lf.vim'
+Plug 'voldikss/vim-floaterm'
+
 " Initialize plugin system
 call plug#end()
 
@@ -32,8 +35,9 @@ call plug#end()
 "nmap <C-n> :NERDTreeToggle<CR>
 "vmap ++ <plug>NERDCommenterToggle
 "nmap ++ <plug>NERDCommenterToggle
-nmap <C-n> :Fern . -drawer -toggle<CR>
-nmap <C-f> :Files<CR>
+nmap <C-n> :Fern %:h -drawer -toggle<CR>
+"nmap <C-f> :Files<CR>
+"nmap <C-f> :Lf<CR>
 
 set mouse=a
 set number
@@ -77,7 +81,7 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " run prettier on save
 "let g:prettier#autoformat = 0
 "autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
-
+" new comment
 
 " ctrlp
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
@@ -87,6 +91,7 @@ noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 nnoremap <C-s> :w<CR>
 nnoremap <C-Q> :wq<CR>
+inoremap <special> jk <ESC>
 
 " shift+arrow selection
 nmap <S-Up> v<Up>
@@ -127,7 +132,6 @@ set cindent
 "
 "" Highlight currently open buffer in NERDTree
 "autocmd BufEnter * call SyncTree()
-
 " coc config
 let g:coc_global_extensions = [
   \ 'coc-snippets',
