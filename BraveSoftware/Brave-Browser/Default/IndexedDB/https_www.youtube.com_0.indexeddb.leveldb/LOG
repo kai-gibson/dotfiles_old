@@ -1,0 +1,15 @@
+2022/06/18-19:40:59.404 8524 Reusing MANIFEST /home/kai/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/18-19:40:59.405 8524 Recovering log #4
+2022/06/18-19:40:59.419 8524 Reusing old log /home/kai/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2022/06/18-19:58:55.079 1260e Level-0 table #8: started
+2022/06/18-19:58:55.110 1260e Level-0 table #8: 774853 bytes OK
+2022/06/18-19:58:55.117 1260e Delete type=0 #4
+2022/06/18-19:58:55.119 1260e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/06/18-19:58:55.119 1260e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x1f\x03f\x1e0*\x83\x8cxB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 10726 : 0
+2022/06/18-19:58:55.119 1260e Compacting 1@1 + 1@2 files
+2022/06/18-19:58:55.137 1260e Generated table #9@1: 348 keys, 30012 bytes
+2022/06/18-19:58:55.137 1260e Compacted 1@1 + 1@2 files => 30012 bytes
+2022/06/18-19:58:55.142 1260e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/18-19:58:55.143 1260e Delete type=2 #5
+2022/06/18-19:58:55.143 1260e Delete type=2 #8
+2022/06/18-19:58:55.144 1260e Manual compaction at level-1 from '\x00\x08\x01\x1f\x03f\x1e0*\x83\x8cxB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 10726 : 0 .. (end); will stop at (end)

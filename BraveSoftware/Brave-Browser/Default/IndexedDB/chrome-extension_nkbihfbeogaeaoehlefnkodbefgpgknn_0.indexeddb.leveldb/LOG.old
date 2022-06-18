@@ -1,0 +1,6 @@
+2022/02/24-14:13:45.170 10706 Creating DB /home/kai/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_nkbihfbeogaeaoehlefnkodbefgpgknn_0.indexeddb.leveldb since it was missing.
+2022/02/24-14:13:45.179 10706 Reusing MANIFEST /home/kai/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_nkbihfbeogaeaoehlefnkodbefgpgknn_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/24-14:13:54.551 e825 Level-0 table #5: started
+2022/02/24-14:13:54.554 e825 Level-0 table #5: 1990 bytes OK
+2022/02/24-14:13:54.560 e825 Delete type=0 #3
+2022/02/24-14:13:54.560 e825 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

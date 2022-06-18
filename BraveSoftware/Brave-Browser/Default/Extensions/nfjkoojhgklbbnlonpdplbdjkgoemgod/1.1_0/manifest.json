@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon-128.png",
+         "64": "icon-64.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "commands": {
+      "_execute_action": {
+         "description": "Copy quote link to clipboard.",
+         "suggested_key": {
+            "default": "Alt+Shift+C"
+         }
+      }
+   },
+   "description": "Create a markdown link of the current page with quoted text.",
+   "icons": {
+      "128": "icon-128.png",
+      "64": "icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArZuC4DGSqglsOGmsp5fb1H3l/1Jce5Tan1TmU1Jyk7pQkbtihmxove4cOEGEN5TS6HHP8SiWs+1Ti6SGn3nARLbpK0/LryxFhSeMSnJ4KKP/BIvcosE9kWpqBmUU8lyWjRmjspsX51VrgsbEHAsMuOKc/ZqGG0edVJHC/53W6oKovit+ALL4KK68pY2DCFFIVBDZYCICvLrRRpYOytqIOrpBYasCKFOvPEy7Isd2sEP+cHN0AR0g9EA+KtBmjyHslw0i90CVbIARmY3qMVuPMY4gZD8VUWzcYHzb4uIeuo0zbUX+zZgEvJ8xfBdKQXKqljyXjWo7o8UUExti3YToewIDAQAB",
+   "manifest_version": 3,
+   "name": "Link-Md",
+   "permissions": [ "activeTab", "scripting", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
